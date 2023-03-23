@@ -8,7 +8,9 @@ function ArticleList ({posts}){
             key = {element.id} 
             title = {element.title} 
             date = {element.date}
-            preview = {element.preview} />
+            preview = {element.preview} 
+            minutes = {element.minutes}
+            />
     })
 
     return(
